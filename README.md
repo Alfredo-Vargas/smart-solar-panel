@@ -1,11 +1,9 @@
 # smart-solar-panel
-This smart solar panel besides the commonly used LDR's and servo motor, uses a temperature-humidity sensor and ultrasonic sensor for extra features.
+MAIN PHYSICAL PRINCIPLE:
+This project uses two LDRs to determine the lux at two borders of a solar panel. Then using a Servo motor we are able to change the orientation plane of a solar panel to maximize the lux incident on it. 
 
-
-This smart-solar-panel, is based on two LDR's readings which determine the orientation plane of the solar panel with more flux incidence. Furthermore, uses a servo motor to rotate the the solar panel to the desire position.
-
-This whole device has a DHT11 sensor for humidity and temperature reading which together with the flux average readings are displayed on a LCD. An ultrasonic sensor (HC-SR04) is also included to display the temperature, humidity and average flux reading whenever a user comes into the vicinity of the whole device. 
-
+EXTRA FEATURES:
+This project also includes a DHT11 sensor for humidity and temperature readings which together with the flux average readings are displayed on a LCD. Furthermore, an ultrasonic sensor (HC-SR04) is also installed to active the LCD display only when a user comes into the vicinity of the ultrasonic sensor.
 
 References:
 
